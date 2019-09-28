@@ -1,10 +1,13 @@
+/* Primera seccion header */
 header{
     background-color: #0C1D63;
     position: fixed;
     top:0px;
     left: 0px;
     width: 100%;
-    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 h1{
@@ -17,16 +20,35 @@ ul{
     float: right;
     margin-right: 7%;
 }
-li{   
+
+li{
     display: inline-block;
-    margin-top: 16px;
+    margin-top: 14px;
     margin-right: 30px;
-    color: white  
+    color: white;
 }
 
-img{
-    margin: 150px auto;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
+/* Segunda seccion */
+.section_1{
+    background-color: #18bc9c;
+    margin-top: 77px;
+
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.image_profile{
+    margin-top: 70px;
+}
+
+.titulo_bootstrap{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.titulo2_bootstrap{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
