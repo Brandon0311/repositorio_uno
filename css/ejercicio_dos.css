@@ -134,20 +134,19 @@ span{
     margin-bottom: 50px;
     width: 100%;
     height: auto;
-    text-align: center;   
 }
 
 .contac_black{
     color: black;
     font-size: 40px;
     font-weight: bold;
-
+    text-align: center;
+     
 }
 
 
 .input_llenado{
-
-    width: 40%;
+    width: 100%;
     height: 70px;
     font-size: 30px;
     color: #495057;
@@ -156,7 +155,7 @@ span{
 }
 
 .area_llenado{
-    width: 40%;
+    width: 100%;
     height: 200px;
     font-size: 30px;
     color: #495057;
@@ -164,17 +163,29 @@ span{
     border-bottom: 2px solid #D9D9DB;  
 }
 
+.llenado_centro {
+    position: relative;
+    width: 800px;
+    margin:20px auto;
+}
+
+.input_centro{
+    text-align: center;
+}
+
 .boton_send{
     width: 90px;
     height: 55px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     font-size: 30px;
     text-align: left;
     background-color: #18bc9c;
     color: white;
     border-radius: 10%;
+    position: absolute;
+    left: 0px;   
+}
 
-}
-.boton_col{
-    
-}
+
+
