@@ -126,3 +126,55 @@ li{
 span{
     margin-right: 10px;    
 }
+
+/*Cuarta Seccion*/
+.section_4{
+    background-color: white;
+    margin-top: 77px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;   
+}
+
+.contac_black{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+.input_llenado{
+
+    width: 40%;
+    height: 70px;
+    font-size: 30px;
+    color: #495057;
+    border: none;
+    border-bottom: 2px solid #D9D9DB;  
+}
+
+.area_llenado{
+    width: 40%;
+    height: 200px;
+    font-size: 30px;
+    color: #495057;
+    border: none;
+    border-bottom: 2px solid #D9D9DB;  
+}
+
+.boton_send{
+    width: 90px;
+    height: 55px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: left;
+    background-color: #18bc9c;
+    color: white;
+    border-radius: 10%;
+
+}
+.boton_col{
+    
+}
